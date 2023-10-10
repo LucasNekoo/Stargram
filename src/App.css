@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #fafafa;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 14px;
+  color: #262626;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  display: flex;
+  justify-content: middle;
+  align-items: center;
+  max-width: 935px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
+
+.imgstar {
+  width: 350px;
+  height: auto;
+}
+
+.right-section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font: inherit;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+  }
+
+.login-container {
+  text-align: center;
+}
+
+.login-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  font-size: 14px;
+}
+
+.login-container button {
+  background-color: #0095f6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.separator .line {
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.separator span {
+  margin: 0 10px;
+  color: #8e8e8e;
+}
+
+.options {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.options a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
